@@ -1,0 +1,49 @@
+{
+  "gcn": {
+    "params": {
+      "epochs": 100,
+      "lr": 0.01,
+      "hidden_channels": 128
+    }
+  },
+  "gat": {
+    "params": {
+      "epochs": 100,
+      "lr": 0.005,
+      "hidden_channels": 128,
+      "heads": 8,
+      "dropout": 0.6
+    }
+  },
+  "gin": {
+    "params": {
+      "epochs": 100,
+      "lr": 0.01,
+      "hidden_channels": 128
+    }
+  },
+  "pna": {
+    "params": {
+      "epochs": 100,
+      "lr": 0.005,
+      "hidden_channels": 64
+    }
+  },
+  "rgcn": {
+    "params": {
+      "epochs": 100,
+      "lr": 0.01,
+      "hidden_channels": 128,
+      "num_relations": 1
+    }
+  },
+  "transformer": {
+    "params": {
+      "epochs": 100,
+      "lr": 0.0005,
+      "hidden_channels": 128,
+      "heads": 8,
+      "dropout": 0.1
+    }
+  }
+}

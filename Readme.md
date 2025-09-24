@@ -1,0 +1,1 @@
+Test GNN Models (GCN, PNA, GAT, GIN, RGCN and Graph Transformer) on the [Elliptic](https://www.kaggle.com/datasets/ellipticco/elliptic-data-set) dataset.
